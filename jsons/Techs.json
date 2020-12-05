@@ -1,97 +1,48 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Ancient",
-		"techCost": 40,
+		"era": "Prehistoric",
+		"techCost": 0,
 		"techs": [
 			{
-				"name": "Fishing",
-				"row": 1,
-				"quote": "'Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.' - Lao Tzu"
+				"name": "Prehistoric Lifestyle",
+				"row": 5,
+				"quote": "'In prehistoric times, mankind often had only two choices in crisis situations: fight or flee.' -Robert Orben"
 			},
-			{
-				"name": "The Wheel",
-				"row": 2,
-				"quote": "'Put your shoulder to the wheel.' - Aesop"
-			},
-			{
-				"name": "Agriculture",
-				"row": 3,
-				"quote": "'O farmers, pray that your summers be wet and your winters clear.' - Virgil"
-			},
-			{
-				"name": "Hunting",
-				"row": 4,
-				"quote": "'If you chase two rabbits, you will lose them both.' - Native American saying"
-			},
-			{
-				"name": "Mysticism",
-				"row": 6,
-				"cost": 50,
-				"quote": "'Nature herself has imprinted on the minds of all the idea of God.' - Cicero"
-			},
-			{
-				"name": "Mining",
-				"row": 8,
-				"cost": 50,
-				"quote": "'The man who moves a mountain begins by carrying away small stones.' - Confucius"
-			}
-			
 		]	
 	},
 	{
 		"columnNumber": 1,
-		"era": "Ancient",
-		"techCost": 80,
+		"era": "Prehistoric",
+		"techCost": 21,
 		"buildingCost": 60,
 		"techs": [
 			{
-				"name": "Sailing",
-				"cost": 100,
+				"name": "Cave Dwelling",
+				"cost": 21,
 				"row": 1,
-				"prerequisites": ["Fishing"],
-				"quote": "'You can't direct the wind, but you can adjust your sails.' - Unknown"
+				"prerequisites": ["Prehistoric Lifestyle"],
+				"quote": "'The cave you fear to enter holds the treasure you seek.' -Joseph Campbell"
 			},
 			{
-				"name": "Pottery",
-				"cost":80,
-				"row": 2,
-				"prerequisites": ["Agriculture", "The Wheel"],
-				"quote": "'Hath not the potter power over the clay, to make one vessel unto honor and another unto dishonor?' - The Bible, Romans"
+				"name": "Nomadism",
+				"cost":21,
+				"row": 5,
+				"prerequisites": ["Prehistoric Lifestyle"],
+				"quote": "'A good traveller has no fixed plans and is not intent on arriving.' -Lao Tzu"
 			},
 			{
-				"name": "Animal Husbandry",
-				"cost": 100,
-				"row": 3,
-				"prerequisites": ["Agriculture","Hunting"],
-				"quote": "'Blessed shall be the fruit of thy cattle, the increase of thy kine, and the flocks of thy sheep.' - The Bible, Deuteronomy 28:4"
-			},
-			{
-				"name": "Archery",
-				"row": 4,
-				"cost": 60,
-				"prerequisites": ["Hunting"],
-				"quote": "'Do not throw the arrow which will return against you.' - Kurdish proverb"
-			},
-			{
-				"name": "Polytheism",
-				"row": 6,
-				"cost": 100,
-				"prerequisites": ["Mysticism"],
-				"quote": "'Not at all similar are the race of the immortal gods and the race of men who walk upon the Earth.' - Homer"
-			},
-			{
-				"name": "Masonry",
-				"row": 7,
-				"cost": 80,
-				"prerequisites": ["Mining", "Mysticism"],
-				"quote": "'It is from their foes, not their friends, that cities learn the lesson of building high walls.' - Aristophanes"
+				"name": "Language",
+				"cost": 21,
+				"row": 9,
+				"prerequisites": ["Prehistoric Lifestyle"],
+				"quote": "'Words are a pretext. It is the inner bond that draws one person to another, not words.' -Rumi"
 			},
 		]
 	},
 	{
 		"columnNumber": 2,
-		"era": "Ancient",
+		"era": "Prehistoric",
 		"techs": [
 			{
 				"name": "Horseback Riding",
